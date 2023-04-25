@@ -2,7 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         Person person = new Person("first", "second");
         Person[] persons = { person };
-        Pair<String> pairs = new Pair<>(null, null);
+        // Pair<String> pairs = new Pair<>(null, null);
         System.out.println(hasEqualElement(persons, person));
         // static checked
         // System.out.println(hasEqualElement(pairs, person));

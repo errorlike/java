@@ -10,7 +10,7 @@ public class Pair<Type> {
         return first;
     }
 
-    public Type getSeconType() {
+    public Type getSecondType() {
         return second;
     }
     public void setFirst(Type first) {

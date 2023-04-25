@@ -10,7 +10,7 @@ public class PairTwo<Type1,Type2> {
         return first;
     }
 
-    public Type2 getSeconType() {
+    public Type2 getSecondType() {
         return second;
     }
 }
