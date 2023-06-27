@@ -13,5 +13,7 @@
     },
     "editor.parameterHints.enabled": false,
     "editor.suggestOnTriggerCharacters": false,
-    "editor.suggest.snippetsPreventQuickSuggestions": true
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    // "java.signatureHelp.enabled": false,
+    // "java.signatureHelp.description.enabled": true
 }
