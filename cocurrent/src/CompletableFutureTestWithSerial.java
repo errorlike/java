@@ -1,9 +1,8 @@
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
 
 public class CompletableFutureTestWithSerial {
 
-    public static void main(String[] args) throws InterruptedException, ExecutionException {
+    public static void main(String[] args)  {
         CompletableFuture<Void> future = CompletableFuture
                 .supplyAsync(() -> {
                     return queryCode("bababa");
@@ -12,7 +11,7 @@ public class CompletableFutureTestWithSerial {
                 }).thenAccept((result) -> {
                     System.out.println("price" + result);
                 });
-        future.get();
+        future.join();
     }
 
     private static String queryCode(String name) {
